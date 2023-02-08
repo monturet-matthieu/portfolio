@@ -4,7 +4,18 @@ module.exports = {
   darkMode: false,
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      "colors": {
+        "noir": '#181616',
+        "blanc": '#FFFFFF',
+        "blanc-gris": '#FAFAFA',
+      },
+      "fontFamily": {
+        'karla': 'Karla, sans-serif',
+        'cabin': 'Cabin, sans-serif',
+        'gothic': 'Dela Gothic One, sans-serif'
+      }
+    },
   },
   plugins: [],
 }
