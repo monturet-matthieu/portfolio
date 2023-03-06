@@ -9,6 +9,7 @@ module.exports = {
         "noir": '#181616',
         "blanc": '#FFFFFF',
         "blanc-gris": '#FAFAFA',
+        "bleu": '#160044'
       },
       "fontFamily": {
         'karla': 'Karla, sans-serif',
