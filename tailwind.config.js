@@ -4,6 +4,12 @@ module.exports = {
   darkMode: false,
   content: [],
   theme: {
+    screens: {
+      'phone': '410px',
+      'tablet': '768px',
+      'smdesktop': '1280px',
+      'desktop': '1536px',
+    },
     extend: {
       "colors": {
         "noir": '#181616',
@@ -15,7 +21,7 @@ module.exports = {
         'karla': 'Karla, sans-serif',
         'cabin': 'Cabin, sans-serif',
         'gothic': 'Dela Gothic One, sans-serif'
-      }
+      },
     },
   },
   plugins: [],
