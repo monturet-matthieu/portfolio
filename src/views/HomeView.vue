@@ -6,10 +6,10 @@
     <!--Home Page-->
     <div class="text-blanc-gris flex phone:flex-col tablet:flex-row flex-wrap desktop:space-x-12 desktop:pl-16 desktop:pt-2">
         <!--Présentation-->
-        <div class="phone:text-center mt-8 space-y-16 mb-14 phone:pt-8 desktop:text-left desktop:w-1/2 desktop:space-y-12 desktop:pt-24 desktop:pl-12">
-            <h1 class="font-gothic phone:text-2xl phone:px-16 desktop:text-3xl desktop:px-0 desktop:pr-64">
-                Matthieu Monturet
-                Front Developper
+        <div class="text-center mt-8 space-y-16 mb-14 pt-8 desktop:text-left desktop:w-1/2 desktop:space-y-12 desktop:pt-24 desktop:pl-12">
+            <h1 class="font-gothic text-2xl px-16 desktop:text-3xl desktop:px-0 desktop:mr-[500px]">
+                Matthieu&nbspMonturet
+                Front&nbspDevelopper
             </h1>
             <div class="font-karla space-y-2 phone:text-sm desktop:text-2xl">
                 <p>Étudiant en 2e année de <span class="text-orange-500 font-semibold">BUT MMI</span> de Montbéliard</p>
@@ -42,7 +42,7 @@
     </div>
 
     <!--Footer page accueil-->
-    <div class="wave absolute bottom-0 left-0 w-full">
+    <div class="wave absolute bottom-0 left-0 w-full h-fit">
         <img src="@/assets/icons/wave.svg" alt="wave animation">
     </div>
 </template>
