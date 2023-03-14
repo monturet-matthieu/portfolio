@@ -100,7 +100,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/m_tiktak"
+            imageUrl="src/assets/img/m_tiktak.png"
             alt="Maquette site TikTak"
             titre="Maquette TikTak"
             description="Maquette du site TikTak conçue en amont du développement"
