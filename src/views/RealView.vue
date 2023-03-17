@@ -9,7 +9,7 @@ import CardPdf from '../components/CardPdf.vue';
     <!--Importation composant Card-->
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-8 mb-16">
         <Card 
-            imageUrl="http://mmonturet.fr/src/assets/img/femin-in.png"
+            imageUrl="/img/femin-in.png"
             alt="Site Femin'In"
             titre="Femin'In"
             description="Site mobile réalisé durant mon premier semestre de MMI"
@@ -20,7 +20,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Visiter"
         />
         <Card 
-            imageUrl="src/assets/img/jpommi.png"
+            imageUrl="/img/jpommi.png"
             alt="Site JPO MMI 2023"
             titre="JPO MMI 2023"
             description="Site réalisé lors de l'organisation de la journée Portes Ouvertes du département MMI"
@@ -31,7 +31,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Visiter"
         />
         <Card 
-            imageUrl="src/assets/img/velotaf.png"
+            imageUrl="/img/velotaf.png"
             alt="Site Velotaf NFC"
             titre="Velotaf NFC"
             description="Site de promotion du vélotaf réalisé durant une semaine d'évaluation"
@@ -42,7 +42,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Visiter"
         />
         <Card 
-            imageUrl="src/assets/img/tiktak.png"
+            imageUrl="/img/tiktak.png"
             alt="Site TikTak"
             titre="TikTak"
             description="Site de promotion du vélotaf réalisé durant une semaine d'évaluation"
@@ -53,7 +53,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Visiter"
         />
         <Card 
-            imageUrl="src/assets/img/bluejazz.png"
+            imageUrl="/img/bluejazz.png"
             alt="Site Festival Blue Jazz"
             titre="Blue Jazz Festival"
             description="Site de festival de musique fictif réalisé au cours d'une semaine d'évaluation"
@@ -67,7 +67,7 @@ import CardPdf from '../components/CardPdf.vue';
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-blanc-gris">Maquettes Figma</h3>
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-8 mb-16">
         <Card 
-            imageUrl="src/assets/img/m_femin-in.png"
+            imageUrl="/img/m_femin-in.png"
             alt="Maquette site Famin'In"
             titre="Maquette Femin'In"
             description="Maquette du site Femin'In conçue en amont du développement"
@@ -78,7 +78,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
             />
         <Card 
-            imageUrl="src/assets/img/m_jpommi.png"
+            imageUrl="/img/m_jpommi.png"
             alt="Maquette site JPO MMI"
             titre="Maquette JPO MMI 2023"
             description="Maquette du site JPO MMI réalisée en amont du développement"
@@ -89,7 +89,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/m_velotaf.png"
+            imageUrl="/img/m_velotaf.png"
             alt="Maquette site Velotaf NFC"
             titre="Maquette Velotaf NFC"
             description="Maquette du site Velotaf NFC réalisée en amont du développement"
@@ -100,7 +100,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/m_tiktak.png"
+            imageUrl="/img/m_tiktak.png"
             alt="Maquette site TikTak"
             titre="Maquette TikTak"
             description="Maquette du site TikTak conçue en amont du développement"
@@ -111,7 +111,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/fildefer.png"
+            imageUrl="/img/fildefer.png"
             alt="Maquette fil de fer"
             titre="Fil de fer mmimontbeliard"
             description="Fil de fer réalisé lors d'une évaluation consistant à la refonte de la page international du site mmimontbeliard.com"
@@ -122,7 +122,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/aquaman.png"
+            imageUrl="/img/aquaman.png"
             alt="Maquette Aquaman"
             titre="Maquette Aquaman"
             description="Maquette reproduite dans le cadre d'une évaluation"
@@ -136,7 +136,7 @@ import CardPdf from '../components/CardPdf.vue';
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-blanc-gris">Visuels</h3>
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-8 mb-16">
         <CardPdf 
-            imageUrl="src/assets/img/CharteGraphique_19Crac.png"
+            imageUrl="/img/CharteGraphique_19Crac.png"
             alt="Charte graphique 19Crac"
             titre="Charte graphique 19Crac"
             description="Charte graphique de la refonte complète du logo du 19Crac"
@@ -146,7 +146,7 @@ import CardPdf from '../components/CardPdf.vue';
             pdfUrl="src/assets/pdf/CharteGraphique_19Crac.pdf"
         />
         <Card 
-            imageUrl="src/assets/img/affiches_jpommi.jpg"
+            imageUrl="/img/affiches_jpommi.jpg"
             alt="Affiches JPO"
             titre="Visuels JPO"
             description="Affiches et posts Instagram réalisés pour promouvoir la journée Portes Ouvertes du département MMI"
@@ -157,7 +157,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/velotaf_visuels.jpg"
+            imageUrl="/img/velotaf_visuels.jpg"
             alt="Visuels Velotaf NFC"
             titre="Visuels Velotaf NFC"
             description="Visuels réalisés dans le cadre d'une campagne de communication promouvant le vélotaf"
@@ -168,7 +168,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <Card 
-            imageUrl="src/assets/img/velotaf_behance.jpg"
+            imageUrl="/img/velotaf_behance.jpg"
             alt="Behance Velotaf NFC"
             titre="Behance Velotaf NFC"
             description="Maquette en format Behance présentant le projet complet Velotaf NFC"
@@ -179,7 +179,7 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
         <CardPdf 
-            imageUrl="src/assets/img/citadelle.jpg"
+            imageUrl="/img/citadelle.jpg"
             alt="Image vectorielle citadelle"
             titre="Citadelle de Besançon"
             description="Réalisation vectorielle de la citadelle de Besançon"
@@ -189,7 +189,7 @@ import CardPdf from '../components/CardPdf.vue';
             pdfUrl="src/assets/pdf/citadelle.pdf"
         />
         <Card 
-            imageUrl="src/assets/img/Osaka_affiche.jpg"
+            imageUrl="/img/Osaka_affiche.jpg"
             alt="Visuels Exposition Universelle"
             titre="Visuels Exposition Universelle"
             description="Visuels conçus pour la promotion de l'Exposition Universelle d'Osa"
