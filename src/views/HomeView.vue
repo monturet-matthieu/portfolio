@@ -24,16 +24,16 @@
             <img src="@/assets/icons/social-circle.svg" class="w-[300px] h-[300px] -mb-[327.5px] ml-6 desktop:absolute desktop:w-5/6 desktop:h-5/6 desktop:left-[50px] desktop:ml-0 desktop:top-[50px]" alt="circle">
             <!--Icônes réseaux sociaux animées-->
             <div class="social-icons h-full">
-                <a href="https://twitter.com/MatthieuMontur1">
+                <a href="https://twitter.com/MatthieuMontur1" target="_blank">
                     <img class="absolute w-16 desktop:w-28 top-0 left-[42%]" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
                 </a>
-                <a href="https://www.instagram.com/matthieumonturet">
+                <a href="https://www.instagram.com/matthieumonturet" target="_blank">
                     <img class="absolute w-16 desktop:w-28 top-[42%] right-0" src="@/assets/icons/instagram-icon.svg" alt="instagram icon">
                 </a>
-                <a href="https://www.linkedin.com/in/matthieumonturet">
+                <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
                     <img class="absolute w-16 desktop:w-28 top-[42%] left-0" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
                 </a>
-                <a href="mailto:monturetmatthieu@gmail.com">
+                <a href="mailto:monturetmatthieu@gmail.com" target="_blank">
                     <img class="absolute w-16 desktop:w-28 top-[84%] right-[42%]" src="@/assets/icons/mail-icon.svg" alt="mail icon">
                 </a>
             </div>

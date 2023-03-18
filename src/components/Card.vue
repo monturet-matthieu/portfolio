@@ -15,7 +15,7 @@
                             {{ buttonText }}
                         </button>
                     </a>
-                    <a class="cursor-pointer" :href="externalLink">
+                    <a class="cursor-pointer" :href="externalLink" target="_blank">
                         <button class="rounded-full shadow shadow-black/60 border-orange-500 border-2 bg-blanc-gris/30 py-2 px-6 uppercase text-lg font-black">
                             {{ linkText }}
                         </button>

@@ -5,16 +5,16 @@ import CardPdf from '../components/CardPdf.vue';
 
 <template>
     <h2 class="font-gothic text-center mt-8 text-2xl desktop:mb-8 desktop:mx-12 desktop:text-6xl text-blanc-gris">Mes projets & réalisations</h2>
-    <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-blanc-gris">Sites web</h3>
+    <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Sites web</h3>
     <!--Importation composant Card-->
-    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-8 mb-16">
+    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:grid-cols-3 mb-16">
         <Card 
             imageUrl="/img/femin-in.png"
             alt="Site Femin'In"
             titre="Femin'In"
             description="Site mobile réalisé durant mon premier semestre de MMI"
             technos="Technologies utilisées : HTML5 / CSS / JavaScript"
-            link="realsreals/feminin"
+            link="reals/feminin"
             externalLink="https://femin-in.mmonturet.fr"
             buttonText="Détails"
             linkText="Visiter"
@@ -25,7 +25,7 @@ import CardPdf from '../components/CardPdf.vue';
             titre="JPO MMI 2023"
             description="Site réalisé lors de l'organisation de la journée Portes Ouvertes du département MMI"
             technos="Technologies utilisées : VueJS 3 / TailwindCSS"
-            link="reals/jpo"
+            link="reals/jpommi"
             externalLink="https://jpo-mmi.steib-audy.fr"
             buttonText="Détails"
             linkText="Visiter"
@@ -64,8 +64,8 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Visiter"
         />
     </div>
-    <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-blanc-gris">Maquettes Figma</h3>
-    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-8 mb-16">
+    <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Maquettes</h3>
+    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
         <Card 
             imageUrl="/img/m_femin-in.png"
             alt="Maquette site Famin'In"
@@ -133,8 +133,8 @@ import CardPdf from '../components/CardPdf.vue';
             linkText="Consulter"
         />
     </div>
-    <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-blanc-gris">Visuels</h3>
-    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-8 mb-16">
+    <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Visuels</h3>
+    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
         <CardPdf 
             imageUrl="/img/CharteGraphique_19Crac.png"
             alt="Charte graphique 19Crac"
@@ -202,17 +202,26 @@ import CardPdf from '../components/CardPdf.vue';
     </div>
     <!--Réseaux-->
     <div class="desktop:w-full desktop:mr-24 text-blanc-gris my-8">
-            <h2 class="font-gothic underline underline-offset-4 text-center text-lg mx-10 my-8 desktop:text-3xl">Retrouvez-moi sur les réseaux !</h2>
-            <div class="flex space-x-12 mx-12 place-content-center">
-                <a href="https://twitter.com/MatthieuMontur1">
-                    <img class="w-16 desktop:w-24" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
-                </a>
-                <a href="https://www.instagram.com/matthieumonturet">
-                    <img class="w-16 desktop:w-24" src="@/assets/icons/instagram-icon.svg" alt="instagram icon">
-                </a>
-                <a href="https://www.linkedin.com/in/matthieumonturet">
-                    <img class="w-16 desktop:w-24" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
-                </a>
-            </div>
+        <h2 class="font-gothic underline underline-offset-4 text-center text-lg mx-10 my-8 desktop:text-3xl">Retrouvez-moi sur les réseaux !</h2>
+        <div class="flex space-x-12 mx-12 place-content-center">
+            <a href="https://twitter.com/MatthieuMontur1" target="_blank">
+                <img class="w-16 desktop:w-24" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
+            </a>
+            <a href="https://www.instagram.com/matthieumonturet" target="_blank">
+                <img class="w-16 desktop:w-24" src="@/assets/icons/instagram-icon.svg" alt="instagram icon">
+            </a>
+            <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
+                <img class="w-16 desktop:w-24" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
+            </a>
         </div>
+    </div>
+    <!--Contact-->
+    <div class="text-blanc-gris flex flex-col items-center mb-16">
+        <h2 class="font-gothic text-center text-lg mx-10 my-8 desktop:text-3xl desktop:mt-16">Vous souhaitez me contacter ?</h2>
+        <a href="/contact">
+            <button class="font-cabin rounded-full shadow shadow-black/60 bg-orange-500 py-2 px-6 desktop:py-4 desktop:px-12 uppercase text-lg desktop:text-2xl font-black">
+                Contact
+            </button>
+        </a>
+    </div>
 </template>
