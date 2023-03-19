@@ -20,7 +20,7 @@
         <div class="mb-8 desktop:mx-[428px]">
             <h3 class="font-gothic font-medium text-xl desktop:text-3xl my-6">Présentation</h3>
             <p>Velotaf NFC est un projet réalisé lors d'une semaine d'évaluation de ma première année de BUT MMI. Ce site a pour but de promouvoir la pratique du vélotaf dans les agglomérations de Belfort et Montbéliard, en créant un site web et la communication autour de ce dernier.</p>
-            <p>Cette évaluation a été réalisée en groupe avec deux autres personnes, à savoir <a class="text-orange-500 underline" href="https://iversenc.fr" target="_blank">Alicia Iversenc</a> et <a class="text-orange-500 underline" href="https://lucasmoramarco.fr" target="_blank">Lucas Moramarco</a>.</p>
+            <p>Cette évaluation a été réalisée en groupe avec deux autres personnes, à savoir <a class="text-orange-500 underline underline-offset-4" href="https://iversenc.fr" target="_blank">Alicia Iversenc</a> et <a class="text-orange-500 underline underline-offset-4" href="https://lucasmoramarco.fr" target="_blank">Lucas Moramarco</a>.</p>
         </div>
         <!--Site web-->
         <div class="mb-8 desktop:mx-[428px]">
@@ -75,7 +75,7 @@
                 <img class="mt-6 w-full desktop:w-[1000px]" src="/img/velotaf/m_velotaf-guide.jpg" alt="Guide de style maquette Velotaf NFC">
                 <caption>Guide de style de la maquette</caption>
             </div>
-            <p>Les polices que nous avons choisi d'utiliser sont Impact, Antonia et Balsamiq Sans. Quant aux couleurs, nous avons choisi 2 nuances de violet et 2 nuances de bleu-vert. En outre, nous avons pris du blanc bleuté en tant que couleur de fond, pour se rapprocher de nos couleurs dominantes.</p>
+            <p>Les polices que nous avons choisi d'utiliser sont Impact, Antonio et Balsamiq Sans. Quant aux couleurs, nous avons choisi 2 nuances de violet et 2 nuances de bleu-vert. En outre, nous avons pris du blanc bleuté en tant que couleur de fond, pour se rapprocher de nos couleurs dominantes.</p>
             <div class="flex flex-col items-center gap-5 mb-8 italic desktop:text-lg text-base">
                 <img class="mt-6 w-full desktop:w-[500px]" src="/img/m_velotaf.png" alt="Maquette Velotaf NFC">
                 <caption>Maquette du site Velotaf NFC</caption>
@@ -87,7 +87,7 @@
         <div class="mb-8 desktop:mx-[428px]">
             <h3 class="font-gothic font-medium text-xl desktop:text-3xl my-6" id="visuels">Visuels</h3>
             <div class="flex flex-col items-center">
-                <img class="my-6 w-full desktop:w-[1000px]" src="/img/velotaf_visuels.jpg" alt="Guide de style maquette Velotaf NFC">
+                <img class="my-6 w-full desktop:w-[1000px]" src="/img/velotaf_visuels.jpg" alt="Visuels maquette Velotaf NFC">
                 <a href="https://www.figma.com/file/b8ggSkdBzPFqzBvPwwVaqI/SAE_202_IVERSENC_MORAMARCO_MONTURET?node-id=814-798" target="_blank">
                     <button class="font-cabin rounded-full shadow shadow-black/60 bg-orange-500 py-2 px-6 desktop:py-4 desktop:px-12 uppercase text-lg desktop:text-2xl font-black mb-8">
                         Voir les visuels

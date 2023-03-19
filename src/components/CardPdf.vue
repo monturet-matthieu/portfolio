@@ -1,6 +1,7 @@
 <template>
     <div class="flex items-center justify-center mt-12">
         <div class="group relative items-center justify-center overflow-hidden rounded-t-3xl hover:shadow-xl hover:shadow-black/30 transition-shadow motion-reduce:hover:shadow-black">
+            <a class="desktop:cursor-default" :href="link">
             <div class="h-52 w-[300px] desktop:h-96 desktop:w-[500px]">
                 <img class="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500 motion-reduced:group-hover:scale-100" :src="imageUrl" :alt="alt">
             </div>
@@ -18,8 +19,7 @@
                     <Pdf :pdfLink="pdfUrl"/>
                 </div>
             </div>
-        </div>
-        <div class="fixed bottom-16">
+            </a>
         </div>
     </div>
 </template>

@@ -6,7 +6,7 @@ import CardPdf from '../components/CardPdf.vue';
 <template>
     <h2 class="font-gothic text-center mt-8 text-2xl desktop:mb-8 desktop:mx-12 desktop:text-6xl text-blanc-gris">Mes projets & réalisations</h2>
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Sites web</h3>
-    <!--Importation composant Card-->
+    <!--Importation composant Card & CardPdf-->
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:grid-cols-3 mb-16">
         <Card 
             imageUrl="/img/femin-in.png"
@@ -15,7 +15,7 @@ import CardPdf from '../components/CardPdf.vue';
             description="Site mobile réalisé durant mon premier semestre de MMI"
             technos="Technologies utilisées : HTML5 / CSS / JavaScript"
             link="reals/feminin"
-            externalLink="https://femin-in.mmonturet.fr"
+            externalLink="https://feminin.mmonturet.fr"
             buttonText="Détails"
             linkText="Visiter"
         />
@@ -68,7 +68,7 @@ import CardPdf from '../components/CardPdf.vue';
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
         <Card 
             imageUrl="/img/m_femin-in.png"
-            alt="Maquette site Famin'In"
+            alt="Maquette site Femin'In"
             titre="Maquette Femin'In"
             description="Maquette du site Femin'In conçue en amont du développement"
             technos="Technologie utilisée : Figma"
