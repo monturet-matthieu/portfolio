@@ -27,8 +27,8 @@
                 <a href="https://twitter.com/MatthieuMontur1" target="_blank">
                     <img class="absolute w-16 desktop:w-28 top-0 left-[42%]" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
                 </a>
-                <a href="https://www.instagram.com/matthieumonturet" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-[42%] right-0" src="@/assets/icons/instagram-icon.svg" alt="instagram icon">
+                <a href="https://github.com/monturet-matthieu" target="_blank">
+                    <img class="absolute w-16 desktop:w-28 top-[42%] right-0" src="@/assets/icons/github-icon.svg" alt="github icon">
                 </a>
                 <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
                     <img class="absolute w-16 desktop:w-28 top-[42%] left-0" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">

@@ -5,8 +5,8 @@
             <a href="https://twitter.com/MatthieuMontur1" target="_blank">
                 <img class="w-6 desktop:w-12" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
             </a>
-            <a href="https://www.instagram.com/matthieumonturet" target="_blank">
-                <img class="w-6 desktop:w-12" src="@/assets/icons/instagram-icon.svg" alt="instagram icon">
+            <a href="https://github.com/monturet-matthieu">
+                <img class="w-16 desktop:w-24" src="@/assets/icons/github-icon.svg" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
                 <img class="w-6 desktop:w-12" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
