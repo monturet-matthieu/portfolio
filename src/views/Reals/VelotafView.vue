@@ -6,7 +6,7 @@
                 <img class="w-6 desktop:w-12" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
             </a>
             <a href="https://github.com/monturet-matthieu">
-                <img class="w-16 desktop:w-24" src="@/assets/icons/github-icon.svg" alt="github icon">
+                <img class="w-6 desktop:w-12" src="@/assets/icons/github-icon.svg" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
                 <img class="w-6 desktop:w-12" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
@@ -52,7 +52,7 @@
             </div>
             <p>La page "Les vélotafeurs" est consacrée au retour d'expérience de personnes interviewées sur le sujet du vélotaf. Ce retour est présenté sous forme de publi-reportage entièrement réalisé par notre équipe.</p>
             <div class="flex flex-col items-center gap-5 mb-8 italic desktop:text-lg text-base">
-                <video class="mt-6 w-full desktop:w-[1000px]" controls type="video/mov">
+                <video class="mt-6 w-full desktop:w-[1000px]" controls type="video/mp4">
                     <source src="/img/velotaf/velotaf-itw.mov" alt="Publireportage vélotaf">
                 </video>
                 <caption>Publi-reportage sur le vélotaf</caption>
