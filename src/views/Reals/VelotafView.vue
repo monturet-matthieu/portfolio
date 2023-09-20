@@ -52,10 +52,11 @@
             </div>
             <p>La page "Les vélotafeurs" est consacrée au retour d'expérience de personnes interviewées sur le sujet du vélotaf. Ce retour est présenté sous forme de publi-reportage entièrement réalisé par notre équipe.</p>
             <div class="flex flex-col items-center gap-5 mb-8 italic desktop:text-lg text-base">
-                <video class="mt-6 w-full desktop:w-[1000px]" controls type="video/mov">
-                    <source src="@/assets/velotaf-itw.mov" alt="Publireportage vélotaf">
+                <video class="mt-6 w-full desktop:w-[1000px]" controls>
+                    <source src="../../../img/velotaf/velotaf-itw.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
                 </video>
-                <caption>Publi-reportage sur le vélotaf</caption>
+                <figcaption>Publi-reportage sur le vélotaf</figcaption>
             </div>
             <p>La dernière page "Règlement" contient les mentions légales ainsi que les CGU du site.</p>
         </div>
