@@ -40,8 +40,8 @@
                     alt="Icône JS"
                     color="bg-yellow-400"
                     border="border-yellow-400"
-                    :progress="65"
-                    :percent="65"
+                    :progress="75"
+                    :percent="75"
                 />
             </div>
             <div class="flex flex-col space-y-12 mt-12 desktop:space-y-0 tablet:flex-row desktop:mt-24">
@@ -66,8 +66,8 @@
                     alt="Icône WordPress"
                     color="bg-blue-700"
                     border="border-blue-700"
-                    :progress="75"
-                    :percent="75"
+                    :progress="80"
+                    :percent="80"
                 />
             </div>
             <div class="flex flex-col space-y-12 mt-12 desktop:space-y-0 tablet:flex-row desktop:mt-24">

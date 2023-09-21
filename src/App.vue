@@ -4,7 +4,7 @@ import { ref } from 'vue';
 
 // Links array
 // let Links = [
-//   {name : "Mes Réalisations", link : "/real"},
+//   {name : "Mes Réalisations", link : "/reals"},
 //   {name : "À propos", link : "/about"},
 //   {name : "Contact", link : "/contact"},
 // ]
@@ -27,7 +27,7 @@ function MenuOpen(){
         </span>
 
         <div :class="[open ? 'left-0' : 'left-[-150%]']" class="flex flex-col tablet:flex-row bg-gray-800 bg-blend-overlay tablet:bg-transparent space-y-8 items-center tablet:space-x-16 tablet:space-y-0 px-3 py-6 tablet:px-0 tablet:pb-0 tablet:static absolute tablet:w-auto w-full top-24 tablet:top-10 duration-1000 ease-in-out z-10">
-          <RouterLink class="hover:text-orange-500" to="/real">Mes réalisations</RouterLink>
+          <RouterLink class="hover:text-orange-500" to="/reals">Mes réalisations</RouterLink>
           <RouterLink class="hover:text-orange-500" to="/about">À propos</RouterLink>
           <RouterLink class="hover:text-orange-500" to="/contact">Contact</RouterLink>
         </div>
