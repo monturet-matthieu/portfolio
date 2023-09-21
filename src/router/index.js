@@ -7,6 +7,8 @@ import VelotafView from '../views/VelotafView.vue'
 import FemininView from '../views/FemininView.vue'
 import JPOMMIView from '../views/JPOMMIView.vue'
 import TikTakView from '../views/TikTakView.vue'
+import JHMView from '../views/JHMView.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +21,7 @@ const router = createRouter({
     { path: '/feminin',         name: 'feminin',    component: FemininView    },
     { path: '/jpommi',          name: 'jpommi',     component: JPOMMIView     },
     { path: '/tiktak',          name: 'tiktak',     component: TikTakView     },
+    { path: '/jhm',             name: 'jhm',        component: JHMView        },
   ]
 })
 
