@@ -16,34 +16,34 @@
                 <p>Spécialisé dans <span class="text-orange-500 font-semibold">l'intégration web</span> et le <span class="text-orange-500 font-semibold">webdesign</span></p>
             </div>
             <!--Bouton interactif (desktop only)-->
-            <RouterLink class="font-cabin text-center text-base bg-orange-500 rounded-3xl px-4 py-5 phone:before:invisible desktop:before:visible desktop:bg-transparent desktop:text-xl desktop:mt-16 desktop:px-5 desktop:py-8 hover:before:w-full desktop:relative inline-block uppercase tracking-[.125rem] font-black before:absolute before:left-0 before:top-3 before:w-16 before:h-16 before:rounded-[50px] before:bg-orange-500 before:-z-10 before:transition-all before:ease-in before:delay-100 before:duration-500" to="/reals">Me découvrir</RouterLink>
+            <RouterLink class="font-cabin text-center text-base bg-orange-500 rounded-3xl px-4 py-5 phone:before:invisible desktop:before:visible desktop:bg-transparent desktop:text-xl desktop:mt-16 desktop:px-5 desktop:py-8 hover:before:w-full desktop:relative inline-block uppercase tracking-[.125rem] font-black before:absolute before:left-0 before:top-3 before:w-16 before:h-16 before:rounded-[50px] before:bg-orange-500 before:-z-10 before:transition-all before:ease-in before:delay-100 before:duration-500" to="/about">Me découvrir</RouterLink>
         </div>
 
         <!--Espace social-->
         <div class="phone:w-[350px] phone:h-[350px] phone:self-center desktop:relative desktop:w-[600px] desktop:h-[600px] desktop:-mt-12">
-            <img src="@/assets/icons/social-circle.svg" class="w-[300px] h-[300px] -mb-[327.5px] ml-6 desktop:absolute desktop:w-5/6 desktop:h-5/6 desktop:left-[50px] desktop:ml-0 desktop:top-[50px]" alt="circle">
+            <img src="../../public/icons/social-circle.svg" class="w-[300px] h-[300px] -mb-[327.5px] ml-6 desktop:absolute desktop:w-5/6 desktop:h-5/6 desktop:left-[50px] desktop:ml-0 desktop:top-[50px]" alt="circle">
             <!--Icônes réseaux sociaux animées-->
             <div class="social-icons h-full">
                 <a href="https://twitter.com/MatthieuMontur1" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-0 left-[42%]" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
+                    <img class="absolute w-16 desktop:w-28 top-0 left-[42%]" src="../../public/icons/twitter-icon.svg" alt="twitter icon">
                 </a>
                 <a href="https://github.com/monturet-matthieu" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-[42%] right-0" src="@/assets/icons/github-icon.svg" alt="github icon">
+                    <img class="absolute w-16 desktop:w-28 top-[42%] right-0" src="../../public/icons/github-icon.svg" alt="github icon">
                 </a>
                 <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-[42%] left-0" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
+                    <img class="absolute w-16 desktop:w-28 top-[42%] left-0" src="../../public/icons/linkedin-icon.svg" alt="linkedin icon">
                 </a>
                 <a href="mailto:monturetmatthieu@gmail.com" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-[84%] right-[42%]" src="@/assets/icons/mail-icon.svg" alt="mail icon">
+                    <img class="absolute w-16 desktop:w-28 top-[84%] right-[42%]" src="../../public/icons/mail-icon.svg" alt="mail icon">
                 </a>
             </div>
-            <img class="shadow-orange-500 w-36 -mt-56 ml-[100px] desktop:absolute desktop:mt-0 desktop:ml-0 desktop:top-1/2 desktop:left-1/2 desktop:-translate-x-1/2 desktop:-translate-y-1/2 desktop:w-72" src="@/assets/icons/social-icon.svg" alt="social icon">
+            <img class="shadow-orange-500 w-36 -mt-56 ml-[100px] desktop:absolute desktop:mt-0 desktop:ml-0 desktop:top-1/2 desktop:left-1/2 desktop:-translate-x-1/2 desktop:-translate-y-1/2 desktop:w-72" src="../../public/icons/social-icon.svg" alt="social icon">
         </div>
     </div>
 
     <!--Footer page accueil-->
     <div class="wave absolute bottom-0 left-0 w-full h-fit">
-        <img src="@/assets/icons/wave.svg" alt="wave animation">
+        <img src="../../public/icons/wave.svg" alt="wave animation">
     </div>
 </template>
 
@@ -65,7 +65,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(@/assets/icons/wave.svg) repeat-x;
+    background: url(../../public/icons/wave.svg) repeat-x;
     background-size: cover;
     background-position: -1000px 0;
     opacity: .5;
@@ -80,7 +80,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(@/assets/icons/wave.svg) repeat-x;
+    background: url(../../public/icons/wave.svg) repeat-x;
     background-size: cover;
     background-position: 2732px 0;
     opacity: .4;
