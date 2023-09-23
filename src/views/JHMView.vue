@@ -3,13 +3,13 @@
     <nav class="fixed">
         <div class="flex flex-col gap-5 bg-blanc-gris px-2 py-4 desktop:py-5 desktop:px-4 rounded-r-xl desktop:rounded-r-3xl">
             <a href="https://twitter.com/MatthieuMontur1" target="_blank">
-                <img class="w-6 desktop:w-12" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
+                <img class="w-6 desktop:w-12" src="../../icons/twitter-icon.svg" alt="twitter icon">
             </a>
             <a href="https://github.com/monturet-matthieu">
-                <img class="w-6 desktop:w-12" src="@/assets/icons/github-icon.svg" alt="github icon">
+                <img class="w-6 desktop:w-12" src="../../icons/github-icon.svg" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
-                <img class="w-6 desktop:w-12" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
+                <img class="w-6 desktop:w-12" src="../../icons/linkedin-icon.svg" alt="linkedin icon">
             </a>
         </div>
     </nav>
@@ -113,24 +113,24 @@
                     </button>
                 </a>
             </div>
-            <p>Lors de mon stage, j'ai également été chargé de réaliser un template de carte de visite pour JHM CONCEPT, à réaliser en parallèle du développement du site web. Dans mon processus de création, je suis passé par plusieurs visuels différents (sans compter les variantes de ces-dits visuels) avant d'atteindre un modèle qui convenait à l'équipe de l'entreprise.</p>
-            <div class="flex flex-col items-center gap-5 mb-8 italic desktop:text-lg text-base">
-                <img class="mt-6 w-full desktop:w-[500px]" src="/img/jhm/v_jhm-essais1.png" alt="Premiers essais carte de visite JHM CONCEPT">
+            <p class="mb-6">Lors de mon stage, j'ai également été chargé de réaliser un template de carte de visite pour JHM CONCEPT, à réaliser en parallèle du développement du site web. Dans mon processus de création, je suis passé par plusieurs visuels différents (sans compter les variantes de ces-dits visuels) avant d'atteindre un modèle qui convenait à l'équipe de l'entreprise.</p>
+            <div class="mx-auto mb-10 gap-5 columns-1 desktop:columns-3 space-y-6 desktop:w-[900px] italic desktop:text-lg text-base">
+                <img class="w-full desktop:w-[500px]" src="/img/jhm/v_jhm-essais1.png" alt="Premiers essais carte de visite JHM CONCEPT">
                 <caption>Premiers essais de visuels pour la carte de visite</caption>
-                <img class="mt-2 w-full desktop:w-[500px]" src="/img/jhm/v_jhm-essais2.png" alt="Deuxième phase recherches carte de visite JHM CONCEPT">
+                <img class="w-full desktop:w-[500px]" src="/img/jhm/v_jhm-essais2.png" alt="Deuxième phase recherches carte de visite JHM CONCEPT">
                 <caption>Deuxième phase de recherches pour la carte de visite</caption>
-                <img class="mt-2 w-full desktop:w-[500px]" src="/img/jhm/v_jhm-essais3.png" alt="Phase finale recherches carte de visite JHM CONCEPT">
+                <img class="w-full desktop:w-[500px]" src="/img/jhm/v_jhm-essais3.png" alt="Phase finale recherches carte de visite JHM CONCEPT">
                 <caption>Phase finale de recherches pour la carte de visite</caption>
             </div>
             <p>Durant la première phase de recherche, je me suis inspiré de plusieurs templates de cartes existants, en intégrant des éléments graphiques qui pourraient rappeler le coeur de métier de l'entreprise (la vis, la règle, etc.)</p>
             <p class="mt-8">Pour la seconde phase, j'ai pris en compte les remarques des membres de l'entreprise et j'ai commencé à rechercher un visuel qui puisse mieux permettre aux éléments de s'imbriquer les uns aux autres.</p>
-            <p class="mt-8">Lors de la dernière phase, j'ai repris ce concept en modifiant encore une fois en fonction des remarques de l'équipe et j'ai également recherché quelque chose de plus sobre. C'est avec cet objectif en tête que je suis parvenu à livrer un template final qui correspondait aux attentes de l'entreprise. J'ai également réalisé les versos, en deux versions de couleurs différentes (et en adaptant donc le logo de l'entreprise à chaque version).</p>
-            <div class="flex flex-col items-center gap-5 mb-8 italic desktop:text-lg text-base">
-                <img class="mt-6 w-full desktop:w-[500px]" src="/img/jhm/v_jhm-recto.png" alt="Premiers essais carte de visite JHM CONCEPT">
+            <p class="my-8">Lors de la dernière phase, j'ai repris ce concept en modifiant encore une fois en fonction des remarques de l'équipe et j'ai également recherché quelque chose de plus sobre. C'est avec cet objectif en tête que je suis parvenu à livrer un template final qui correspondait aux attentes de l'entreprise. J'ai également réalisé les versos, en deux versions de couleurs différentes (et en adaptant donc le logo de l'entreprise à chaque version).</p>
+            <div class="mx-auto mb-10 gap-5 columns-1 desktop:columns-3 space-y-6 desktop:w-[900px] italic desktop:text-lg text-base">
+                <img class="w-full desktop:w-[500px]" src="/img/jhm/v_jhm-recto.png" alt="Premiers essais carte de visite JHM CONCEPT">
                 <caption>Version finale du modèle de carte de visite (recto)</caption>
-                <img class="mt-2 w-full desktop:w-[500px]" src="/img/jhm/v_jhm-versob.png" alt="Premiers essais carte de visite JHM CONCEPT">
+                <img class="w-full desktop:w-[500px]" src="/img/jhm/v_jhm-versob.png" alt="Premiers essais carte de visite JHM CONCEPT">
                 <caption>Version finale du modèle de carte de visite (verso blanc)</caption>
-                <img class="mt-2 w-full desktop:w-[500px]" src="/img/jhm/v_jhm-verson.png" alt="Premiers essais carte de visite JHM CONCEPT">
+                <img class="w-full desktop:w-[500px]" src="/img/jhm/v_jhm-verson.png" alt="Premiers essais carte de visite JHM CONCEPT">
                 <caption>Version finale du modèle de carte de visite (verso noir)</caption>
             </div>
             <div class="flex flex-col desktop:flex-row place-content-center gap-8 mx-8 my-6">
@@ -153,7 +153,7 @@
 export default {
     methods: {
         downloadPdf() {
-            fetch('/src/assets/pdf/jhm_carte-visite.pdf')
+            fetch('../../pdf/jhm_carte-visite.pdf')
             .then(response => response.blob())
             .then(blob => {
             const url = URL.createObjectURL(blob);
