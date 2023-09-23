@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import RealsView from '../views/RealsView.vue'
-import ContactView from '../views/ContactView.vue'
-import AboutView from '../views/AboutView.vue'
-import VelotafView from '../views/VelotafView.vue'
-import FemininView from '../views/FemininView.vue'
-import JPOMMIView from '../views/JPOMMIView.vue'
-import TikTakView from '../views/TikTakView.vue'
-import JHMView from '../views/JHMView.vue'
+import HomeView     from '../views/HomeView.vue'
+import RealsView    from '../views/RealsView.vue'
+import ContactView  from '../views/ContactView.vue'
+import AboutView    from '../views/AboutView.vue'
+import VelotafView  from '../views/VelotafView.vue'
+import FemininView  from '../views/FemininView.vue'
+import JPOMMIView   from '../views/JPOMMIView.vue'
+import TikTakView   from '../views/TikTakView.vue'
+import JHMView      from '../views/JHMView.vue'
 
 
 const router = createRouter({
