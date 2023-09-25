@@ -19,7 +19,7 @@ function MenuOpen(){
   <header class="text-blanc py-4 shadow-xl desktop:mb-12 font-gothic desktop:text-base uppercase">
       <nav class="flex justify-between items-center phone:mx-6 desktop:my-4 desktop:mx-28 z-10">
         <RouterLink to="/">
-          <img class="phone:w-2/3 desktop:w-4/5" src="../public/icons/logo-white.svg" alt="logo">
+          <img class="phone:w-2/3 desktop:w-4/5" src="@/assets/logo-white.svg" alt="logo">
         </RouterLink>
 
         <span @click="MenuOpen()" class="w-auto tablet:hidden cursor-pointer text-5xl">
