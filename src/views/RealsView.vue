@@ -1,6 +1,6 @@
 <script setup>
-import Card from '../components/Card.vue';
-import CardPdf from '../components/CardPdf.vue';
+import Card from '@/components/Card.vue';
+import CardPdf from '@/components/CardPdf.vue';
 </script>
 
 <template>
@@ -8,6 +8,17 @@ import CardPdf from '../components/CardPdf.vue';
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Sites web</h3>
     <!--Importation composant Card & CardPdf-->
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:grid-cols-3 mb-16">
+        <Card 
+            imageUrl="/img/jhm/jhm-accueil.png"
+            alt="Site JHM CONCEPT"
+            titre="JHM CONCEPT"
+            description="Site WordPress réalisé durant mon stage de 2e année en MMI"
+            technos="Technologies utilisées : WordPress / Avada"
+            link="/jhm"
+            externalLink="https://jhm-concept.com"
+            buttonText="Détails"
+            linkText="Visiter"
+        />
         <Card 
             imageUrl="/img/femin-in.png"
             alt="Site Femin'In"
@@ -67,6 +78,17 @@ import CardPdf from '../components/CardPdf.vue';
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Maquettes</h3>
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
         <Card 
+            imageUrl="/img/jhm/m_jhm.png"
+            alt="Maquette JHM CONCEPT"
+            titre="Maquette JHM CONCEPT"
+            description="Maquette du site JHM CONCEPT réalisée durant mon stage de 2e année de MMI"
+            technos="Technologie utilisée : Figma"
+            link="/jhm#maquette"
+            externalLink="https://www.figma.com/file/bxCBesMgBdcXGnbNEz5tDw/JHM-CONCEPT?type=design&node-id=1%3A5&mode=design&t=j6Bc2BgdsciBrMeD-1"
+            buttonText="Détails"
+            linkText="Consulter"
+        />
+        <Card 
             imageUrl="/img/m_femin-in.png"
             alt="Maquette site Femin'In"
             titre="Maquette Femin'In"
@@ -121,29 +143,18 @@ import CardPdf from '../components/CardPdf.vue';
             buttonText="Détails"
             linkText="Consulter"
         />
-        <Card 
-            imageUrl="/img/aquaman.png"
-            alt="Maquette Aquaman"
-            titre="Maquette Aquaman"
-            description="Maquette reproduite dans le cadre d'une évaluation"
-            technos="Technologie utilisée : Figma"
-            link="/aquaman"
-            externalLink="https://www.figma.com/file/faae1HEZF38wIRfzjfofHF/SAE-105"
-            buttonText="Détails"
-            linkText="Consulter"
-        />
     </div>
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Visuels</h3>
     <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
         <CardPdf 
-            imageUrl="/img/CharteGraphique_19Crac.png"
-            alt="Charte graphique 19Crac"
-            titre="Charte graphique 19Crac"
-            description="Charte graphique de la refonte complète du logo du 19Crac"
-            technos="Technologies utilisées : Adobe InDesign / Illustrator / Figma"
-            link="/19Crac"
+            imageUrl="/img/jhm/v_jhm-recto.png"
+            alt="Carte de visite JHM CONCEPT"
+            titre="Carte de visite JHM CONCEPT"
+            description="Étapes de réalisation du modèle de carte de visite pour JHM CONCEPT"
+            technos="Technologies utilisées : Adobe Illustrator / Figma"
+            link="/jhm#visuels"
             buttonText="Détails"
-            pdfUrl="src/assets/pdf/CharteGraphique_19Crac.pdf"
+            pdfUrl="src/assets/pdf/jhm_carte-visite.pdf"
         />
         <Card 
             imageUrl="/img/affiches_jpommi.jpg"
@@ -205,13 +216,13 @@ import CardPdf from '../components/CardPdf.vue';
         <h2 class="font-gothic underline underline-offset-4 text-center text-lg mx-10 my-8 desktop:text-3xl">Retrouvez-moi sur les réseaux !</h2>
         <div class="flex space-x-12 mx-12 place-content-center">
             <a href="https://twitter.com/MatthieuMontur1" target="_blank">
-                <img class="w-16 desktop:w-24" src="@/assets/icons/twitter-icon.svg" alt="twitter icon">
+                <img class="w-16 desktop:w-24" src="../../public/icons/twitter-icon.svg" alt="twitter icon">
             </a>
             <a href="https://github.com/monturet-matthieu">
-                <img class="w-16 desktop:w-24" src="@/assets/icons/github-icon.svg" alt="github icon">
+                <img class="w-16 desktop:w-24" src="../../public/icons/github-icon.svg" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
-                <img class="w-16 desktop:w-24" src="@/assets/icons/linkedin-icon.svg" alt="linkedin icon">
+                <img class="w-16 desktop:w-24" src="../../public/icons/linkedin-icon.svg" alt="linkedin icon">
             </a>
         </div>
     </div>
