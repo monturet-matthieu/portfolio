@@ -3,13 +3,13 @@
     <nav class="fixed">
         <div class="flex flex-col gap-5 bg-blanc-gris px-2 py-4 desktop:py-5 desktop:px-4 rounded-r-xl desktop:rounded-r-3xl">
             <a href="https://twitter.com/MatthieuMontur1" target="_blank">
-                <img class="w-6 desktop:w-12" src="../../icons/twitter-icon.svg" alt="twitter icon">
+                <img class="w-6 desktop:w-12" src="../../public/icons/twitter-icon.svg" alt="twitter icon">
             </a>
             <a href="https://github.com/monturet-matthieu">
-                <img class="w-6 desktop:w-12" src="../../icons/github-icon.svg" alt="github icon">
+                <img class="w-6 desktop:w-12" src="../../public/icons/github-icon.svg" alt="github icon">
             </a>
             <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
-                <img class="w-6 desktop:w-12" src="../../icons/linkedin-icon.svg" alt="linkedin icon">
+                <img class="w-6 desktop:w-12" src="../../public/icons/linkedin-icon.svg" alt="linkedin icon">
             </a>
         </div>
     </nav>
@@ -131,7 +131,7 @@
 export default {
     methods: {
         downloadPdf() {
-            fetch('../../pdf/velotaf_flyer.pdf')
+            fetch('../../public/pdf/velotaf_flyer.pdf')
             .then(response => response.blob())
             .then(blob => {
             const url = URL.createObjectURL(blob);
