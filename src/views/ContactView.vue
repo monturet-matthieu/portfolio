@@ -27,13 +27,13 @@
             <h2 class="font-gothic underline underline-offset-4 text-center text-lg mx-10 my-8 desktop:text-3xl">Retrouvez-moi sur les réseaux !</h2>
             <div class="flex space-x-12 mx-12 place-content-center">
                 <a href="https://twitter.com/MatthieuMontur1">
-                    <img class="w-16 desktop:w-24" src="../public/icons/twitter-icon.svg" alt="twitter icon">
+                    <img class="w-16 desktop:w-24" src="../../../icons/twitter-icon.svg" alt="twitter icon">
                 </a>
                 <a href="https://github.com/monturet-matthieu">
-                    <img class="w-16 desktop:w-24" src="../public/icons/github-icon.svg" alt="github icon">
+                    <img class="w-16 desktop:w-24" src="../../../icons/github-icon.svg" alt="github icon">
                 </a>
                 <a href="https://www.linkedin.com/in/matthieumonturet">
-                    <img class="w-16 desktop:w-24" src="../public/icons/linkedin-icon.svg" alt="linkedin icon">
+                    <img class="w-16 desktop:w-24" src="../../../icons/linkedin-icon.svg" alt="linkedin icon">
                 </a>
             </div>
         </div>
