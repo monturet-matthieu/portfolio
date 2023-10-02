@@ -20,7 +20,7 @@
             <h4 class="font-gothic font-medium text-lg desktop:text-xl my-16">Développement & Intégration web</h4>
             <div class="flex flex-col space-y-12 desktop:space-y-0 tablet:flex-row">
                 <ProgressBar
-                icon="../../public/icons/html.svg"
+                icon="/icons/html.svg"
                 alt="Icône HTML5"
                 color="bg-orange-500"
                 border="border-orange-500"
@@ -28,7 +28,7 @@
                 :percent="90"
                 />
                 <ProgressBar
-                    icon="../../public/icons/css.svg"
+                    icon="/icons/css.svg"
                     alt="Icône CSS"
                     color="bg-blue-700"
                     border="border-blue-700"
@@ -36,7 +36,7 @@
                     :percent="85"
                 />
                 <ProgressBar
-                    icon="../../public/icons/js.svg"
+                    icon="/icons/js.svg"
                     alt="Icône JS"
                     color="bg-yellow-400"
                     border="border-yellow-400"
@@ -46,15 +46,15 @@
             </div>
             <div class="flex flex-col space-y-12 mt-12 desktop:space-y-0 tablet:flex-row desktop:mt-24">
                 <ProgressBar
-                    icon="../../public/icons/vuejs.svg"
+                    icon="/icons/vuejs.svg"
                     alt="Icône VueJS"
                     color="bg-green-500"
                     border="border-green-500"
-                    :progress="95"
-                    :percent="95"
+                    :progress="90"
+                    :percent="90"
                 />
                 <ProgressBar class="mt-8"
-                    icon="../../public/icons/tailwind.svg"
+                    icon="/icons/tailwind.svg"
                     alt="Icône Tailwind"
                     color="bg-blue-400"
                     border="border-blue-400"
@@ -62,7 +62,7 @@
                     :percent="85"
                 />
                 <ProgressBar
-                    icon="../../public/icons/wordpress.svg"
+                    icon="/icons/wordpress.svg"
                     alt="Icône WordPress"
                     color="bg-blue-700"
                     border="border-blue-700"
@@ -72,7 +72,7 @@
             </div>
             <div class="flex flex-col space-y-12 mt-12 desktop:space-y-0 tablet:flex-row desktop:mt-24">
                 <ProgressBar
-                    icon="../../public/icons/firebase.svg"
+                    icon="/icons/firebase.svg"
                     alt="Icône Firebase"
                     color="bg-yellow-600"
                     border="border-yellow-600"
@@ -80,7 +80,7 @@
                     :percent="60"
                 />
                 <ProgressBar class="mt-12"
-                    icon="../../public/icons/supabase.svg"
+                    icon="/icons/supabase.svg"
                     alt="Icône Supabase"
                     color="bg-green-500"
                     border="border-green-500"
@@ -88,7 +88,7 @@
                     :percent="65"
                 />
                 <ProgressBar
-                    icon="../../public/icons/netlify.svg"
+                    icon="/icons/netlify.svg"
                     alt="Icône Netlify"
                     color="bg-green-300"
                     border="border-green-300"
@@ -97,7 +97,7 @@
                 />
             </div>
             <ProgressBar class="mt-12 desktop:mt-24"
-                    icon="../../public/icons/github.svg"
+                    icon="/icons/github.svg"
                     alt="Icône Github"
                     color="bg-green-300"
                     border="border-green-300"
@@ -107,7 +107,7 @@
             <h4 class="font-gothic font-medium text-lg desktop:text-xl my-16">Création numérique</h4>
             <div class="flex flex-col space-y-12 desktop:space-y-0 tablet:flex-row">
                 <ProgressBar
-                    icon="../../public/icons/photoshop.svg"
+                    icon="/icons/photoshop.svg"
                     alt="Icône Photoshop"
                     color="bg-blue-500"
                     border="border-blue-500"
@@ -115,7 +115,7 @@
                     :percent="65"
                 />
                 <ProgressBar
-                    icon="../../public/icons/illustrator.svg"
+                    icon="/icons/illustrator.svg"
                     alt="Icône Illustrator"
                     color="bg-orange-500"
                     border="border-orange-500"
@@ -123,7 +123,7 @@
                     :percent="70"
                 />
                 <ProgressBar
-                    icon="../../public/icons/indesign.svg"
+                    icon="/icons/indesign.svg"
                     alt="Icône Indesign"
                     color="bg-rose-500"
                     border="border-rose-500"
@@ -133,7 +133,7 @@
             </div>
             <div class="flex flex-col space-y-12 desktop:space-y-0 mt-12 desktop:flex-row desktop:mt-24 desktop:mx-64 mb-12">
                 <ProgressBar class="mt-5"
-                    icon="../../public/icons/figma.svg"
+                    icon="/icons/figma.svg"
                     alt="Icône Figma"
                     color="bg-red-500"
                     border="border-red-500"
@@ -141,7 +141,7 @@
                     :percent="85"
                 />
                 <ProgressBar
-                    icon="../../public/icons/davinci.svg"
+                    icon="/icons/davinci.svg"
                     alt="Icône DaVinci"
                     color="bg-red-500"
                     border="border-red-500"
