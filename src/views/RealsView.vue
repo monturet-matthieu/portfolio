@@ -154,7 +154,7 @@ import CardPdf from '@/components/CardPdf.vue';
             technos="Technologies utilisées : Adobe Illustrator / Figma"
             link="/jhm#visuels"
             buttonText="Détails"
-            pdfUrl="public/pdf/jhm_carte-visite.pdf"
+            pdfUrl="/pdf/jhm_carte-visite.pdf"
         />
         <Card 
             imageUrl="/img/affiches_jpommi.jpg"
@@ -197,7 +197,7 @@ import CardPdf from '@/components/CardPdf.vue';
             technos="Technologies utilisées : Adobe Illustrator / Figma"
             link="/citadelle"
             buttonText="Détails"
-            pdfUrl="public/pdf/citadelle.pdf"
+            pdfUrl="/pdf/citadelle.pdf"
         />
         <Card 
             imageUrl="/img/Osaka_affiche.jpg"
