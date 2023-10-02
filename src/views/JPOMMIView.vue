@@ -117,22 +117,22 @@
 export default {
     methods: {
         downloadPdf() {
-            fetch('../../public/pdf/affiche1_jpommi.pdf')
-            .then(response => response.blob())
-            .then(blob => {
-            const url = URL.createObjectURL(blob);
-            window.open(url);
-            })
-            .catch(error => console.error(error));
+            const defaultPdfUrl = '/pdf/affiche1_jpommi.pdf';
+            const pdfUrl = this.pdfLink || defaultPdfUrl;
+            const newWindow = window.open(pdfUrl, '_blank');
+
+            if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+            console.error("Le navigateur a bloqué l'ouverture de la nouvelle fenêtre. Veuillez autoriser les pop-ups pour ce site.");
+            }
         },
         downloadPdf2() {
-            fetch('../../public/pdf/affiche2_jpommi.pdf')
-            .then(response => response.blob())
-            .then(blob => {
-            const url = URL.createObjectURL(blob);
-            window.open(url);
-            })
-            .catch(error => console.error(error));
+            const defaultPdfUrl = '/pdf/affiche2_jpommi.pdf';
+            const pdfUrl = this.pdfLink || defaultPdfUrl;
+            const newWindow = window.open(pdfUrl, '_blank');
+
+            if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+            console.error("Le navigateur a bloqué l'ouverture de la nouvelle fenêtre. Veuillez autoriser les pop-ups pour ce site.");
+            }
         }
     },
 }

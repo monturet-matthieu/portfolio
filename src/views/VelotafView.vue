@@ -131,22 +131,22 @@
 export default {
     methods: {
         downloadPdf() {
-            fetch('../../public/pdf/velotaf_flyer.pdf')
-            .then(response => response.blob())
-            .then(blob => {
-            const url = URL.createObjectURL(blob);
-            window.open(url);
-            })
-            .catch(error => console.error(error));
+            const defaultPdfUrl = '/pdf/velotaf_flyer.pdf';
+            const pdfUrl = this.pdfLink || defaultPdfUrl;
+            const newWindow = window.open(pdfUrl, '_blank');
+
+            if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+            console.error("Le navigateur a bloqué l'ouverture de la nouvelle fenêtre. Veuillez autoriser les pop-ups pour ce site.");
+            }
         },
         downloadPdf2() {
-            fetch('../../public/pdf/velotaf_affiche.pdf')
-            .then(response => response.blob())
-            .then(blob => {
-            const url = URL.createObjectURL(blob);
-            window.open(url);
-            })
-            .catch(error => console.error(error));
+            const defaultPdfUrl = '/pdf/velotaf_affiche.pdf';
+            const pdfUrl = this.pdfLink || defaultPdfUrl;
+            const newWindow = window.open(pdfUrl, '_blank');
+
+            if (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {
+            console.error("Le navigateur a bloqué l'ouverture de la nouvelle fenêtre. Veuillez autoriser les pop-ups pour ce site.");
+            }
         }
     },
 }
