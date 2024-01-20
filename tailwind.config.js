@@ -9,8 +9,7 @@ module.exports = {
     screens: {
       'phone': '410px',
       'tablet': '768px',
-      'smdesktop': '1280px',
-      'desktop': '1536px',
+      'desktop': '1020px',
     },
     extend: {
       "colors": {
