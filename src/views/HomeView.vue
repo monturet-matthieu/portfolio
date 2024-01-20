@@ -12,7 +12,7 @@
                 Front&nbspDevelopper
             </h1>
             <div class="font-karla space-y-2 phone:text-sm desktop:text-2xl">
-                <p>Étudiant en 2e année de <span class="text-orange-500 font-semibold">BUT MMI</span> de Montbéliard</p>
+                <p>Étudiant en 3e année de <span class="text-orange-500 font-semibold">BUT MMI</span> de Montbéliard</p>
                 <p>Spécialisé dans <span class="text-orange-500 font-semibold">l'intégration web</span> et le <span class="text-orange-500 font-semibold">webdesign</span></p>
             </div>
             <!--Bouton interactif (desktop only)-->
