@@ -4,9 +4,9 @@
 
 <template>
     <!--Home Page-->
-    <div class="text-blanc-gris flex phone:flex-col tablet:flex-row flex-wrap desktop:space-x-12 desktop:pl-16 desktop:pt-2">
+    <div class="text-blanc-gris overflow-hidden flex phone:flex-col tablet:flex-row flex-wrap desktop:space-x-24 desktop:pl-16 desktop:pt-2">
         <!--Présentation-->
-        <div class="text-center mt-8 space-y-16 mb-14 pt-8 desktop:text-left desktop:w-1/2 desktop:space-y-12 desktop:pt-24 desktop:pl-12">
+        <div class="text-center mt-8 space-y-16 mb-14 pt-8 desktop:text-left desktop:w-1/2 desktop:space-y-12 desktop:pt-10 desktop:pl-12">
             <h1 class="font-gothic text-2xl px-16 desktop:text-3xl desktop:px-0 desktop:mr-[500px]">
                 Matthieu&nbspMonturet
                 Front&nbspDevelopper
@@ -20,29 +20,29 @@
         </div>
 
         <!--Espace social-->
-        <div class="phone:w-[350px] phone:h-[350px] phone:self-center desktop:relative desktop:w-[600px] desktop:h-[600px] desktop:-mt-12">
-            <img src="../../public/icons/social-circle.svg" class="w-[300px] h-[300px] -mb-[327.5px] ml-6 desktop:absolute desktop:w-5/6 desktop:h-5/6 desktop:left-[50px] desktop:ml-0 desktop:top-[50px]" alt="circle">
+        <div class="phone:w-[350px] phone:h-[350px] phone:self-center desktop:relative desktop:w-[400px] desktop:h-[400px] desktop:-mt-12">
+            <img src="../../public/icons/social-circle.svg" class="w-[300px] h-[300px] -mb-[327.5px] ml-6 desktop:absolute desktop:w-5/6 desktop:h-5/6 desktop:left-[35px] desktop:ml-0 desktop:top-[40px]" alt="circle">
             <!--Icônes réseaux sociaux animées-->
             <div class="social-icons h-full">
                 <a href="https://twitter.com/MatthieuMontur1" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-0 left-[42%]" src="../../public/icons/twitter-icon.svg" alt="twitter icon">
+                    <img class="absolute w-16 desktop:w-20 bottom-[80%] left-[39%]" src="../../public/icons/twitter-icon.svg" alt="twitter icon">
                 </a>
                 <a href="https://github.com/monturet-matthieu" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-[42%] right-0" src="../../public/icons/github-icon.svg" alt="github icon">
+                    <img class="absolute w-16 desktop:w-20 top-[42%] left-[80%]" src="../../public/icons/github-icon.svg" alt="github icon">
                 </a>
                 <a href="https://www.linkedin.com/in/matthieumonturet" target="_blank">
-                    <img class="absolute w-16 desktop:w-28 top-[42%] left-0" src="../../public/icons/linkedin-icon.svg" alt="linkedin icon">
+                    <img class="absolute w-16 desktop:w-20 top-[42%] left-0" src="../../public/icons/linkedin-icon.svg" alt="linkedin icon">
                 </a>
                 <a href="mailto:monturetmatthieu@gmail.com" target="">
-                    <img class="absolute w-16 desktop:w-28 top-[84%] right-[42%]" src="../../public/icons/mail-icon.svg" alt="mail icon">
+                    <img class="absolute w-16 desktop:w-20 top-[82%] right-[39%]" src="../../public/icons/mail-icon.svg" alt="mail icon">
                 </a>
             </div>
-            <img class="shadow-orange-500 w-36 -mt-56 ml-[100px] desktop:absolute desktop:mt-0 desktop:ml-0 desktop:top-1/2 desktop:left-1/2 desktop:-translate-x-1/2 desktop:-translate-y-1/2 desktop:w-72" src="../../public/icons/social-icon.svg" alt="social icon">
+            <img class="shadow-orange-500 w-36 -mt-56 ml-[100px] desktop:absolute desktop:mt-0 desktop:ml-0 desktop:top-1/2 desktop:left-1/2 desktop:-translate-x-1/2 desktop:-translate-y-1/2 desktop:w-48" src="../../public/icons/social-icon.svg" alt="social icon">
         </div>
     </div>
 
     <!--Footer page accueil-->
-    <div class="wave absolute bottom-0 left-0 w-full h-fit">
+    <div class="wave absolute bottom-0 left-0 w-full h-auto">
         <img src="../../public/icons/wave.svg" alt="wave animation">
     </div>
 </template>
@@ -93,5 +93,4 @@
         background-position: 0 0;
     }
 }
-
 </style>

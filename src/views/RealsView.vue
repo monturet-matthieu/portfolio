@@ -7,7 +7,7 @@ import CardPdf from '@/components/CardPdf.vue';
     <h2 class="font-gothic text-center mt-8 text-2xl desktop:mb-8 desktop:mx-12 desktop:text-6xl text-blanc-gris">Mes projets & réalisations</h2>
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Sites web</h3>
     <!--Importation composant Card & CardPdf-->
-    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:grid-cols-3 mb-16">
+    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:gap-8 desktop:grid-cols-3 mb-16">
         <Card 
             imageUrl="/img/jhm/jhm-accueil.png"
             alt="Site JHM CONCEPT"
@@ -76,7 +76,7 @@ import CardPdf from '@/components/CardPdf.vue';
         />
     </div>
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Maquettes</h3>
-    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
+    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:gap-8 desktop:grid-cols-3 mb-16">
         <Card 
             imageUrl="/img/jhm/m_jhm.png"
             alt="Maquette JHM CONCEPT"
@@ -145,7 +145,7 @@ import CardPdf from '@/components/CardPdf.vue';
         />
     </div>
     <h3 class="font-gothic text-center mt-8 text-xl desktop:text-left desktop:mb-8 desktop:mx-24 desktop:text-4xl text-orange-500">Visuels</h3>
-    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 mx-12 mb-16">
+    <div class="grid grid-cols-1 tablet:grid-cols-2 desktop:mx-12 desktop:gap-8 desktop:grid-cols-3 mb-16">
         <CardPdf 
             imageUrl="/img/jhm/v_jhm-recto.png"
             alt="Carte de visite JHM CONCEPT"
