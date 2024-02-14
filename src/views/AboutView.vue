@@ -24,8 +24,8 @@
                 alt="Icône HTML5"
                 color="bg-orange-500"
                 border="border-orange-500"
-                :progress="90"
-                :percent="90"
+                :progress="99"
+                :percent="99"
                 />
                 <ProgressBar
                     icon="/icons/css.svg"
@@ -40,8 +40,8 @@
                     alt="Icône JS"
                     color="bg-yellow-400"
                     border="border-yellow-400"
-                    :progress="75"
-                    :percent="75"
+                    :progress="80"
+                    :percent="80"
                 />
             </div>
             <div class="flex flex-col space-y-12 mt-12 desktop:space-y-0 tablet:flex-row desktop:mt-24">
@@ -58,16 +58,16 @@
                     alt="Icône Tailwind"
                     color="bg-blue-400"
                     border="border-blue-400"
-                    :progress="85"
-                    :percent="85"
+                    :progress="95"
+                    :percent="95"
                 />
                 <ProgressBar
                     icon="/icons/wordpress.svg"
                     alt="Icône WordPress"
                     color="bg-blue-700"
                     border="border-blue-700"
-                    :progress="80"
-                    :percent="80"
+                    :progress="85"
+                    :percent="85"
                 />
             </div>
             <div class="flex flex-col space-y-12 mt-12 desktop:space-y-0 tablet:flex-row desktop:mt-24">
@@ -76,16 +76,16 @@
                     alt="Icône Firebase"
                     color="bg-yellow-600"
                     border="border-yellow-600"
-                    :progress="60"
-                    :percent="60"
+                    :progress="70"
+                    :percent="70"
                 />
                 <ProgressBar class="mt-12"
                     icon="/icons/supabase.svg"
                     alt="Icône Supabase"
                     color="bg-green-500"
                     border="border-green-500"
-                    :progress="65"
-                    :percent="65"
+                    :progress="60"
+                    :percent="60"
                 />
                 <ProgressBar
                     icon="/icons/netlify.svg"
